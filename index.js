@@ -31,7 +31,7 @@ function prependKitten(name) // new array, adds element to begining of array UNS
 }
 function removeLastKitten(name) // new array, removes last element of new array POP
 {
-  var kittens3 = kittens.pop();
+  var kittens3 = kittens.slice(0, );
   return kittens3
 }
 function removeFirstKitten(name) // new array, removes first element of new array SHIFT
