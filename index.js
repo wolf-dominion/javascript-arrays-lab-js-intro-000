@@ -21,12 +21,12 @@ function destructivelyRemoveFirstKitten(name) // removes first element in origin
 }
 function appendKitten(name) // new array, adds element to end of array PUSH
 {
-  var kittens2 = kittens.push("Ralph");
+  var kittens2 = kittens.push("Broom");
   return kittens2
 }
 function prependKitten(name) // new array, adds element to begining of array UNSHIFT 
 {
-  var kittens5 = kittens.unshift("Bob");
+  var kittens5 = kittens.unshift("Arnold");
   return kittens5  
 }
 function removeLastKitten(name) // new array, removes last element of new array SLICE
