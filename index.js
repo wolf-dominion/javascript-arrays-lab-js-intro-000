@@ -26,7 +26,7 @@ function appendKitten(name) // new array, adds element to end of array SPREAD
 }
 function prependKitten(name) // new array, adds element to begining of array SPREAD 
 {
-  var kittens5 = kittens.unshift("Arnold");
+  var kittens5 = kittens.["Arnold", ...kittens];
   return kittens5  
 }
 function removeLastKitten(name) // new array, removes last element of new array SLICE
