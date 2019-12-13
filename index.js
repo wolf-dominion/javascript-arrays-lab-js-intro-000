@@ -19,12 +19,12 @@ function destructivelyRemoveFirstKitten(name) // removes first element in origin
 {
   kittens.shift();
 }
-function appendKitten(name) // new array, adds element to end of array PUSH
+function appendKitten(name) // new array, adds element to end of array SPREAD
 {
   var kittens2 = kittens.push("Broom");
   return kittens2
 }
-function prependKitten(name) // new array, adds element to begining of array UNSHIFT 
+function prependKitten(name) // new array, adds element to begining of array SPREAD 
 {
   var kittens5 = kittens.unshift("Arnold");
   return kittens5  
