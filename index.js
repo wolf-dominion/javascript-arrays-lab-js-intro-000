@@ -21,7 +21,7 @@ function destructivelyRemoveFirstKitten(name) // removes first element in origin
 }
 function appendKitten(name) // new array, adds element to end of array SPREAD
 {
-  var kittens2 = kittens.push("Broom");
+  var kittens2 = [kittens, "Broom"...];
   return kittens2
 }
 function prependKitten(name) // new array, adds element to begining of array SPREAD 
