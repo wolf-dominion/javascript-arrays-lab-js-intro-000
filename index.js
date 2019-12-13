@@ -26,7 +26,7 @@ function appendKitten(name) // new array, adds element to end of array PUSH
 }
 function prependKitten(name) // new array, adds element to begining of array UNSHIFT 
 {
-  kittens5 = kittens.unshift("Bob"));
+  kittens5 = kittens.unshift("Bob");
   return kittens5  
 }
 function removeLastKitten(name) // new array, removes last element of new array POP
