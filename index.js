@@ -19,10 +19,10 @@ function destructivelyRemoveFirstKitten(name) // removes first element in origin
 {
   kittens.shift();
 }
-/*function appendKitten(name) // new array, adds element to end of array PUSH
+function appendKitten(name) // new array, adds element to end of array PUSH
 {
-  kittens2 = kittens.();
-  return kittens
+  kittens2 = kittens.push("Ralph");
+  return kittens2
 }
 function prependKitten(name) // new array, adds element to begining of array UNSHIFT 
 {
@@ -38,4 +38,4 @@ function removeFirstKitten(name) // new array, removes first element of new arra
 {
   kittens4 = kittens.();
   return kittens4
-} */
+} 
