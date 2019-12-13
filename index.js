@@ -34,8 +34,8 @@ function removeLastKitten(name) // new array, removes last element of new array 
   var kittens3 = kittens.slice(0, kittens.length - 1);
   return kittens3
 }
-function removeFirstKitten(name) // new array, removes first element of new array SHIFT
+function removeFirstKitten(name) // new array, removes first element of new array SLICE
 {
-  var kittens4 = kittens.shift();
+  var kittens4 = kittens.slice(-2);
   return kittens4
 } 
