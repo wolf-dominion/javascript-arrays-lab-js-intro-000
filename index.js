@@ -21,21 +21,21 @@ function destructivelyRemoveFirstKitten(name) // removes first element in origin
 }
 function appendKitten(name) // new array, adds element to end of array PUSH
 {
-  kittens2 = kittens.push("Ralph");
+  var kittens2 = kittens.push("Ralph");
   return kittens2
 }
 function prependKitten(name) // new array, adds element to begining of array UNSHIFT 
 {
-  kittens5 = kittens.unshift("Bob");
+  var kittens5 = kittens.unshift("Bob");
   return kittens5  
 }
 function removeLastKitten(name) // new array, removes last element of new array POP
 {
-  kittens3 = kittens.pop();
+  var kittens3 = kittens.pop();
   return kittens3
 }
 function removeFirstKitten(name) // new array, removes first element of new array SHIFT
 {
-  kittens4 = kittens.shift();
+  var kittens4 = kittens.shift();
   return kittens4
 } 
